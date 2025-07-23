@@ -1,0 +1,125 @@
+      <HTML>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile card UI</title>
+    <link rel="stylesheet" href="STYLE.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1">
+            <div class="box2">
+                <div class="box3">
+                </div>
+            </div>
+            <p class="word1">CODING SPACE</p>
+            <p class="word2">Web developer</p>
+            <div class="mediabutton">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+                    width="20px" height="20px" class="img1">
+                <img src="https://i.pinimg.com/736x/98/ae/15/98ae159aa1bb8b4243fbe1f9e27d1b9f.jpg" width="20px"
+                    height="20px" class="img2">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1024px-Instagram-Icon.png "
+                    width="20px" height="20px" class="img3">
+            </div>
+            <div type="buttons">
+                <button class="button">Subscribe</button>
+                <button class="button">Message</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+                  <CSS>
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:url(OIP.jpeg);
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    justify-content:200px;
+    align-items: center;
+    
+}
+.box1{
+    height: 400px;
+    width: 400px;
+    background-color: whitesmoke;
+    /*border: 2px solid black;*/
+    /*margin-top: 200px;*/
+    margin-left: 600px;
+    border-radius: 20px;
+}    
+.box2{
+    height: 150px;
+    width: 400px;
+    background-color:aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border: 2px solid black;*/
+    grid-template-columns: 200px;
+    border-radius: 20px;
+}
+.box3{
+    height: 120px;
+    width: 120px;
+    background-color: aquamarine;
+    background-image: url(OIP.jpeg);
+    background-size: cover;
+    border-radius: 50%; 
+}
+.word1{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+.word2{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mediabutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+} 
+
+.button{
+    background-color:#4070f4;
+    color: white;
+    border-radius: 24px ;
+    margin:0 10px;
+    border: white;
+    height: 40px;
+    width: 100px;
+    font-size: medium;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+button:hover{
+    border: 2px white solid;
+}
+.img1:hover{
+    border: 2px white solid;
+}
+.img2:hover{
+    border: 2px white solid;
+}
+.img3:hover{
+    border: 2px white solid;
+}
